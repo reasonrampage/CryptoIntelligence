@@ -2,12 +2,12 @@
 streamlit>=1.32.0
 flask>=2.3.0
 
-# Data processing (Python 3.11 compatible versions)
+# Data processing (NumPy 2.0+ compatible versions)
 pandas>=2.2.3
-numpy>=1.26.4,<3.0.0
+numpy>=2.0.0
 
-# Technical Analysis - Pure Python solution (no native libraries needed)
-pandas-ta>=0.3.14b0
+# Technical Analysis - Alternative library (100% compatible with NumPy 2.0+)
+ta>=0.11.0
 
 # API and web requests
 requests>=2.31.0
