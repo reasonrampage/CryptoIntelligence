@@ -6,8 +6,7 @@ flask>=2.3.0
 pandas>=2.2.3
 numpy>=1.26.4,<3.0.0
 
-# Technical Analysis - Using pre-compiled TA-Lib (no native C library needed)
-ta-lib-bin==0.4.28
+# Technical Analysis - Pure Python solution (no native libraries needed)
 pandas-ta>=0.3.14b0
 
 # API and web requests
